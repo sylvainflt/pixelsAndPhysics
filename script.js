@@ -15,8 +15,8 @@ window.addEventListener('load', function(){
             this.size = this.effect.gap;
             this.vx = 0;
             this.vy = 0;
-            this.ease = 0.1;
-            this.friction = 0.5;
+            this.ease = 0.2;
+            this.friction = 0.8;
             this.dx = 0;
             this.dy = 0;
             this.distance = 0;
