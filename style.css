@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas1 {
+}
+
+.controls {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    z-index: 100;
+}
+
+button {
+    padding: 10px;
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Bangers', cursive;
+    color: white;
+    background: black;
+    transition: 0.2s;
+}
+button:hover {
+    color: black;
+    background: white;
+}
+
+img {
+    display: none;
+}
